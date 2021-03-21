@@ -1,0 +1,220 @@
+.location img{
+    width: 30px;
+}
+.location{
+    width: 300px;
+    background-color: #fcff18;
+    padding: 25px 40px;
+}
+.navbar{
+    padding: 0px !important;
+}
+.location h6{
+    margin: 0px !important;
+}
+.navbar-brand{
+    padding: 0 20px !important;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-link:hover{
+    background-color: #fcff18;
+    color: black !important;
+}
+.nav-item{
+    margin-right: 30px !important;
+}
+.main_block{
+    background: url('img/hero-bg.jpg') center / cover no-repeat;
+    height: 900px;
+}
+.main_text{
+    width: 80%;
+    color: white;
+    margin:  0 auto;
+    text-align: center;
+    padding-top: 300px;
+    font-weight: bolder !important;
+}
+.main_text span{
+    color: #fcff18 !important ;
+}
+.btn-join{
+    padding: 20px 60px !important;
+    border-radius: 0px !important;
+    background-color: #fcff18 !important;
+    font-weight: bold !important;
+}
+.about{
+   padding: 100px 0px !important;
+   text-align: center !important;
+}
+.about img{
+    width: 100px !important;
+    border-radius: 50%;
+    background-color: rgb(243,243,243);
+    padding: 25px !important;
+}
+.workout span{
+    background-color:#fcff18 ;
+}
+.logo img:hover{
+    background-color: #fcff18;
+}
+.pay-now{
+    background: url('img/add-bg.jpg') center / cover;
+    height: 600px;
+}
+.pay-now-container{
+    padding-top: 100px;
+    color: white;
+}
+.yellow_block{
+    background-color:#fcff18 !important ;
+    width: 100px;
+    text-align: center;
+    margin-left: 80px;
+}
+.trainers span{
+    background-color:#fcff18 !important ;
+}
+.img_block img{
+    border-radius: 100% !important;
+}
+.first_box_form{
+    background: url(img/bmi-bg.jpg) center / cover;
+    height:600px;
+}
+.calculate span{
+    background-color:#fcff18 !important ;
+
+}
+.box_form form{
+    background-color: #242424;
+    width: 85%;
+    color: white;
+    padding: 40px 40px ;
+}
+.box_form form input{
+    margin: 10px;
+    width: 45%;
+    height: 55px;
+    border: none;
+    padding-left: 30px;
+}
+#calculate{
+    background-color: yellow;
+    color: black;
+    padding: 0px;
+}
+.top_text_form{
+   padding-right: 120px;
+   padding-top: 70px;
+}
+.top_text_form h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.top_text_form span{ 
+    background-color: yellow;
+}
+.top_text_form p{
+    margin-bottom: 55px;
+}
+
+.text{
+    padding-top: 20px;
+}
+.background_box {
+    background: url(img/newsletter-bg.jpg)  center / cover ;
+    height:200px ;
+    color: white;
+}
+.main_background_box h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.main_background_box span{
+    background-color: #fcff18;
+    color: black;
+}
+#input_first_box{
+    width: 68%;
+    height: 55px;
+    border: none !important;
+}
+.input_first_box2{
+    width: 30%;
+    height: 56px;
+    border: none !important;
+    background-color: #fcff18;
+}
+.input_top_block{
+    padding-top: 80px;
+}
+.footer_block{
+    background: url(img/footer-bg.jpg) center / cover;
+    height: 300px;
+    color: blanchedalmond;
+    padding-top: 80px;
+}
+.footer_location img{
+    width: 25px;
+    margin-top: 12px;
+}
+.footer_logo img{
+    padding-left: 8px;
+}
+.footer_end_block ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.footer_end_block a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+.footer_end_block .footer_link{
+    color: white !important;
+    font-size: 10px !important;
+    margin-top: 60px;
+}
+.navbar_footer{
+    color: white !important;
+    margin-top: 60px;
+}
+.footer_text{
+    margin-top: 65px;
+    color: gray;
+}
+@media (max-width:770px){
+    .display-1{
+        font-size: 60px !important;
+    }
+    .pay-now{
+        height: 700px;
+    }
+    .top_text_form{
+        margin-left: 35px;
+        padding-right: 70px;
+    }
+    .box_form form{
+        width: 100%;
+    }
+    .box_form form input{
+        width: 85%;
+    }
+    .footer_text1{
+        margin-top: 50px;
+    }
+    .footer_block{
+        height: 850px;
+    }
+}
